@@ -1,0 +1,1055 @@
+REEEEE7 {
+  'headers': {
+    'Content-Type': 'text/html; charset=utf-8',
+    'X-Frame-Options': 'DENY',
+    'Vary': 'Cookie',
+    'Content-Length': '2933',
+    'X-Content-Type-Options': 'nosniff',
+    'Referrer-Policy': 'same-origin',
+    'Cross-Origin-Opener-Policy': 'same-origin'
+  },
+  '_charset': None,
+  '_resource_closers': [],
+  '_handler_class': None,
+  'cookies': <SimpleCookie
+  :
+  csrftoken=
+  'UBCAwWbEZxM7KKpQuz1llc6lqzmG4Vxu'
+  >,
+  'closed': True,
+  '_reason_phrase': None,
+  '_container': [
+    b
+    '<!DOCTYPE html>\n\n<html lang="en-us" dir="ltr">\n<head>\n<title>Create an Account</title>\n<link rel="stylesheet" href="/static/admin/css/base.css">\n\n  <link rel="stylesheet" href="/static/admin/css/dark_mode.css">\n\n\n\n\n\n\n    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">\n    <link rel="stylesheet" href="/static/admin/css/responsive.css">\n    \n\n<meta name="robots" content="NONE,NOARCHIVE">\n</head>\n\n<body class=""\n  data-admin-utc-offset="0">\n\n<!-- Container -->\n<div id="container">\n\n    \n    <!-- Header -->\n    \n    <div id="header">\n        <div id="branding">\n        \n        </div>\n        \n        \n        \n        \n    </div>\n    \n    <!-- END Header -->\n    \n    <div class="breadcrumbs">\n    <a href="/dash/">Home</a>\n    \n    </div>\n    \n    \n\n    <div class="main" id="main">\n      \n      <div class="content">\n        \n          \n        \n        <!-- Content -->\n        <div id="content" class="colM">\n          \n          \n          \n          \n    <form method="POST" class="form-group">\n\t<input type="hidden" name="csrfmiddlewaretoken" value="PgUr88uswLyxsM6Fq7SQVlM7njUhr07kzHmRuUvWl8au2mllKwJ16nIiDI6NlLuE">\n\t<tr>\n    <th><label for="id_username">Username:</label></th>\n    <td>\n      \n      <input type="text" name="username" value="user" maxlength="150" autofocus required id="id_username">\n      \n        <br>\n        <span class="helptext">Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only.</span>\n      \n      \n    </td>\n  </tr>\n\n  <tr>\n    <th><label for="id_email">Email:</label></th>\n    <td>\n      <ul class="errorlist"><li>Enter a valid email address.</li></ul>\n      <input type="email" name="email" value="email" required id="id_email">\n      \n      \n    </td>\n  </tr>\n\n  <tr>\n    <th><label for="id_password1">Password:</label></th>\n    <td>\n      \n      <input type="password" name="password1" autocomplete="new-password" required id="id_password1">\n      \n        <br>\n        <span class="helptext"><ul><li>Your password can\xe2\x80\x99t be too similar to your other personal information.</li><li>Your password must contain at least 8 characters.</li><li>Your password can\xe2\x80\x99t be a commonly used password.</li><li>Your password can\xe2\x80\x99t be entirely numeric.</li></ul></span>\n      \n      \n    </td>\n  </tr>\n\n  <tr>\n    <th><label for="id_password2">Password confirmation:</label></th>\n    <td>\n      \n      <input type="password" name="password2" autocomplete="new-password" required id="id_password2">\n      \n        <br>\n        <span class="helptext">Enter the same password as before, for verification.</span>\n      \n      \n        \n      \n    </td>\n  </tr>\n\t<button type="submit" class="btn btn-success">Register</button>\n    </form>\n\n          \n          <br class="clear">\n        </div>\n        <!-- END Content -->\n        <div id="footer"></div>\n      </div>\n    </div>\n</div>\n<!-- END Container -->\n</body>\n</html>\n'
+  ],
+  'wsgi_request': <WSGIRequest
+  :
+  POST
+  '/register/'
+  >,
+  'exc_info': None,
+  'client': <django.test.client.Client
+  object
+  at
+  0x7f8e109fb460>,
+  'request': {
+    'PATH_INFO': '/register/',
+    'REQUEST_METHOD': 'POST',
+    'SERVER_PORT': '80',
+    'wsgi.url_scheme': 'http',
+    'CONTENT_LENGTH': '332',
+    'CONTENT_TYPE': 'multipart/form-data; boundary=BoUnDaRyStRiNg',
+    'wsgi.input': <django.test.client.FakePayload
+    object
+    at
+    0x7f8e520c65b0>,
+    'QUERY_STRING': ''
+  },
+  'templates': [
+    <Template
+    template_string=
+    "{% include "
+    django/f...
+    ">, <Template template_string="
+    {
+      %
+    if
+    errors
+    %
+  }
+    <ul
+    c...
+    ">, <Template template_string="
+    {
+      %
+    include
+    "django/f..."
+    >,
+    <Template
+    template_string=
+    "{% if errors %}<ul c..."
+    >,
+    <Template
+    template_string=
+    "{% extends "
+    admin/ba...
+    ">, <Template template_string="
+    {
+      %
+    load
+    i18n
+    static
+    ...
+    ">, <Template template_string="
+    {
+      %
+    include
+    "django/f..."
+    >,
+    <Template
+    template_string=
+    "{% if errors %}<ul c..."
+    >,
+    <Template
+    template_string=
+    "{% include "
+    django/f...
+    ">, <Template template_string="
+    {
+      %
+    if
+    errors
+    %
+  }
+    <ul
+    c...
+    ">, <Template template_string="
+    {
+      %
+    include
+    "django/f..."
+    >,
+    <Template
+    template_string=
+    "{% if errors %}<ul c..."
+    >,
+    <Template
+    template_string=
+    "{% include "
+    django/f...
+    ">, <Template template_string="
+    {
+      %
+    if
+    errors
+    %
+  }
+    <ul
+    c...
+    ">, <Template template_string="
+    {
+      %
+    include
+    "django/f..."
+    >,
+    <Template
+    template_string=
+    "{% if errors %}  <t..."
+    >,
+    <Template
+    template_string=
+    "{% if use_tag %}<{{ ..."
+    >,
+    <Template
+    template_string=
+    "{% for name, value i..."
+    >,
+    <Template
+    template_string=
+    "{% include "
+    django/f...
+    ">, <Template template_string="
+    <input
+    type=
+    "{{ widg..."
+    >,
+    <Template
+    template_string=
+    "{% for name, value i..."
+    >,
+    <Template
+    template_string=
+    "{% if use_tag %}<{{ ..."
+    >,
+    <Template
+    template_string=
+    "{% for name, value i..."
+    >,
+    <Template
+    template_string=
+    "{% include "
+    django/f...
+    ">, <Template template_string="
+    <input
+    type=
+    "{{ widg..."
+    >,
+    <Template
+    template_string=
+    "{% for name, value i..."
+    >,
+    <Template
+    template_string=
+    "{% if use_tag %}<{{ ..."
+    >,
+    <Template
+    template_string=
+    "{% for name, value i..."
+    >,
+    <Template
+    template_string=
+    "{% include "
+    django/f...
+    ">, <Template template_string="
+    <input
+    type=
+    "{{ widg..."
+    >,
+    <Template
+    template_string=
+    "{% for name, value i..."
+    >,
+    <Template
+    template_string=
+    "{% if use_tag %}<{{ ..."
+    >,
+    <Template
+    template_string=
+    "{% for name, value i..."
+    >,
+    <Template
+    template_string=
+    "{% include "
+    django/f...
+    ">, <Template template_string="
+    <input
+    type=
+    "{{ widg..."
+    >,
+    <Template
+    template_string=
+    "{% for name, value i..."
+    >
+  ],
+  'context': [
+    [
+      {
+        'True': True,
+        'False': False,
+        'None': None
+      },
+      {
+        'errors': dict_items(
+      [
+        (
+        'email',
+        [
+          'Enter a valid email address.'
+        ]
+        )
+      ]
+      ),
+      'error_class'
+      :
+      'errorlist'
+      }
+    ],
+    [
+      {
+        'True': True,
+        'False': False,
+        'None': None
+      },
+      {
+        'errors': dict_items(
+      [
+        (
+        'email',
+        [
+          'Enter a valid email address.'
+        ]
+        )
+      ]
+      ),
+      'error_class'
+      :
+      'errorlist'
+      },
+      {}
+    ],
+    [
+      {
+        'True': True,
+        'False': False,
+        'None': None
+      },
+      {
+        'errors': [
+          'Enter a valid email address.'
+        ],
+        'error_class': 'errorlist'
+      }
+    ],
+    [
+      {
+        'True': True,
+        'False': False,
+        'None': None
+      },
+      {
+        'errors': [
+          'Enter a valid email address.'
+        ],
+        'error_class': 'errorlist'
+      },
+      {}
+    ],
+    [
+      {
+        'True': True,
+        'False': False,
+        'None': None
+      },
+      {
+        'csrf_token': <SimpleLazyObject
+        :
+        'PgUr88uswLyxsM6Fq7SQVlM7njUhr07kzHmRuUvWl8au2mllKwJ16nIiDI6NlLuE'
+        >,
+        'request': <WSGIRequest
+        :
+        POST
+        '/register/'
+        >,
+        'user': <SimpleLazyObject
+        :
+        <function
+        AuthenticationMiddleware.process_request.<locals>.<lambda>
+        at
+        0x7f8e30e83310>>,
+        'perms': PermWrapper(<SimpleLazyObject
+        :
+        <function
+        AuthenticationMiddleware.process_request.<locals>.<lambda>
+        at
+        0x7f8e30e83310>>),
+        'messages': <FallbackStorage
+        :
+        request=<WSGIRequest: POST
+        '/register/'
+        >>,
+        'DEFAULT_MESSAGE_LEVELS': {
+          'DEBUG': 10,
+          'INFO': 20,
+          'SUCCESS': 25,
+          'WARNING': 30,
+          'ERROR': 40
+        },
+        'MEDIA_URL': '/media/'
+      },
+      {},
+      {
+        'form': <RegisterForm
+        bound=True,
+        valid=False,
+        fields=(username
+        ;
+        email
+        ;
+        password1
+        ;
+        password2)>,
+        'LANGUAGE_CODE': 'en-us',
+        'LANGUAGE_BIDI': False
+      }
+    ],
+    [
+      {
+        'True': True,
+        'False': False,
+        'None': None
+      },
+      {
+        'csrf_token': <SimpleLazyObject
+        :
+        'PgUr88uswLyxsM6Fq7SQVlM7njUhr07kzHmRuUvWl8au2mllKwJ16nIiDI6NlLuE'
+        >,
+        'request': <WSGIRequest
+        :
+        POST
+        '/register/'
+        >,
+        'user': <SimpleLazyObject
+        :
+        <function
+        AuthenticationMiddleware.process_request.<locals>.<lambda>
+        at
+        0x7f8e30e83310>>,
+        'perms': PermWrapper(<SimpleLazyObject
+        :
+        <function
+        AuthenticationMiddleware.process_request.<locals>.<lambda>
+        at
+        0x7f8e30e83310>>),
+        'messages': <FallbackStorage
+        :
+        request=<WSGIRequest: POST
+        '/register/'
+        >>,
+        'DEFAULT_MESSAGE_LEVELS': {
+          'DEBUG': 10,
+          'INFO': 20,
+          'SUCCESS': 25,
+          'WARNING': 30,
+          'ERROR': 40
+        },
+        'MEDIA_URL': '/media/'
+      },
+      {},
+      {
+        'form': <RegisterForm
+        bound=True,
+        valid=False,
+        fields=(username
+        ;
+        email
+        ;
+        password1
+        ;
+        password2)>,
+        'LANGUAGE_CODE': 'en-us',
+        'LANGUAGE_BIDI': False
+      }
+    ],
+    [
+      {
+        'True': True,
+        'False': False,
+        'None': None
+      },
+      {
+        'errors': [],
+        'error_class': 'errorlist'
+      }
+    ],
+    [
+      {
+        'True': True,
+        'False': False,
+        'None': None
+      },
+      {
+        'errors': [],
+        'error_class': 'errorlist'
+      },
+      {}
+    ],
+    [
+      {
+        'True': True,
+        'False': False,
+        'None': None
+      },
+      {
+        'errors': [
+          'Enter a valid email address.'
+        ],
+        'error_class': 'errorlist'
+      }
+    ],
+    [
+      {
+        'True': True,
+        'False': False,
+        'None': None
+      },
+      {
+        'errors': [
+          'Enter a valid email address.'
+        ],
+        'error_class': 'errorlist'
+      },
+      {}
+    ],
+    [
+      {
+        'True': True,
+        'False': False,
+        'None': None
+      },
+      {
+        'errors': [],
+        'error_class': 'errorlist'
+      }
+    ],
+    [
+      {
+        'True': True,
+        'False': False,
+        'None': None
+      },
+      {
+        'errors': [],
+        'error_class': 'errorlist'
+      },
+      {}
+    ],
+    [
+      {
+        'True': True,
+        'False': False,
+        'None': None
+      },
+      {
+        'errors': [],
+        'error_class': 'errorlist'
+      }
+    ],
+    [
+      {
+        'True': True,
+        'False': False,
+        'None': None
+      },
+      {
+        'errors': [],
+        'error_class': 'errorlist'
+      },
+      {}
+    ],
+    [
+      {
+        'True': True,
+        'False': False,
+        'None': None
+      },
+      {
+        'form': <RegisterForm
+        bound=True,
+        valid=False,
+        fields=(username
+        ;
+        email
+        ;
+        password1
+        ;
+        password2)>,
+        'fields': [
+          (<django.forms.boundfield.BoundField
+          object
+          at
+          0x7f8e109d80d0>,
+          ''
+          ),
+          (<django.forms.boundfield.BoundField
+          object
+          at
+          0x7f8e109d8880>,
+          '<ul class="errorlist"><li>Enter a valid email address.</li></ul>'
+          ),
+          (<django.forms.boundfield.BoundField
+          object
+          at
+          0x7f8e109d8c40>,
+          ''
+          ),
+          (<django.forms.boundfield.BoundField
+          object
+          at
+          0x7f8e109d8a00>,
+          ''
+          )
+        ],
+        'hidden_fields': [],
+        'errors': []
+      }
+    ],
+    [
+      {
+        'True': True,
+        'False': False,
+        'None': None
+      },
+      {
+        'form': <RegisterForm
+        bound=True,
+        valid=False,
+        fields=(username
+        ;
+        email
+        ;
+        password1
+        ;
+        password2)>,
+        'fields': [
+          (<django.forms.boundfield.BoundField
+          object
+          at
+          0x7f8e109d80d0>,
+          ''
+          ),
+          (<django.forms.boundfield.BoundField
+          object
+          at
+          0x7f8e109d8880>,
+          '<ul class="errorlist"><li>Enter a valid email address.</li></ul>'
+          ),
+          (<django.forms.boundfield.BoundField
+          object
+          at
+          0x7f8e109d8c40>,
+          ''
+          ),
+          (<django.forms.boundfield.BoundField
+          object
+          at
+          0x7f8e109d8a00>,
+          ''
+          )
+        ],
+        'hidden_fields': [],
+        'errors': []
+      },
+      {}
+    ],
+    [
+      {
+        'True': True,
+        'False': False,
+        'None': None
+      },
+      {
+        'field': <django.forms.boundfield.BoundField
+        object
+        at
+        0x7f8e109d80d0>,
+        'label': 'Username:',
+        'attrs': {
+          'for': 'id_username'
+        },
+        'use_tag': True,
+        'tag': 'label'
+      }
+    ],
+    [
+      {
+        'True': True,
+        'False': False,
+        'None': None
+      },
+      {
+        'field': <django.forms.boundfield.BoundField
+        object
+        at
+        0x7f8e109d80d0>,
+        'label': 'Username:',
+        'attrs': {
+          'for': 'id_username'
+        },
+        'use_tag': True,
+        'tag': 'label'
+      },
+      {}
+    ],
+    [
+      {
+        'True': True,
+        'False': False,
+        'None': None
+      },
+      {
+        'widget': {
+          'name': 'username',
+          'is_hidden': False,
+          'required': True,
+          'value': 'user',
+          'attrs': {
+            'maxlength': '150',
+            'autofocus': True,
+            'required': True,
+            'id': 'id_username'
+          },
+          'template_name': 'django/forms/widgets/text.html',
+          'type': 'text'
+        }
+      }
+    ],
+    [
+      {
+        'True': True,
+        'False': False,
+        'None': None
+      },
+      {
+        'widget': {
+          'name': 'username',
+          'is_hidden': False,
+          'required': True,
+          'value': 'user',
+          'attrs': {
+            'maxlength': '150',
+            'autofocus': True,
+            'required': True,
+            'id': 'id_username'
+          },
+          'template_name': 'django/forms/widgets/text.html',
+          'type': 'text'
+        }
+      },
+      {}
+    ],
+    [
+      {
+        'True': True,
+        'False': False,
+        'None': None
+      },
+      {
+        'widget': {
+          'name': 'username',
+          'is_hidden': False,
+          'required': True,
+          'value': 'user',
+          'attrs': {
+            'maxlength': '150',
+            'autofocus': True,
+            'required': True,
+            'id': 'id_username'
+          },
+          'template_name': 'django/forms/widgets/text.html',
+          'type': 'text'
+        }
+      },
+      {},
+      {}
+    ],
+    [
+      {
+        'True': True,
+        'False': False,
+        'None': None
+      },
+      {
+        'field': <django.forms.boundfield.BoundField
+        object
+        at
+        0x7f8e109d8880>,
+        'label': 'Email:',
+        'attrs': {
+          'for': 'id_email'
+        },
+        'use_tag': True,
+        'tag': 'label'
+      }
+    ],
+    [
+      {
+        'True': True,
+        'False': False,
+        'None': None
+      },
+      {
+        'field': <django.forms.boundfield.BoundField
+        object
+        at
+        0x7f8e109d8880>,
+        'label': 'Email:',
+        'attrs': {
+          'for': 'id_email'
+        },
+        'use_tag': True,
+        'tag': 'label'
+      },
+      {}
+    ],
+    [
+      {
+        'True': True,
+        'False': False,
+        'None': None
+      },
+      {
+        'widget': {
+          'name': 'email',
+          'is_hidden': False,
+          'required': True,
+          'value': 'email',
+          'attrs': {
+            'required': True,
+            'id': 'id_email'
+          },
+          'template_name': 'django/forms/widgets/email.html',
+          'type': 'email'
+        }
+      }
+    ],
+    [
+      {
+        'True': True,
+        'False': False,
+        'None': None
+      },
+      {
+        'widget': {
+          'name': 'email',
+          'is_hidden': False,
+          'required': True,
+          'value': 'email',
+          'attrs': {
+            'required': True,
+            'id': 'id_email'
+          },
+          'template_name': 'django/forms/widgets/email.html',
+          'type': 'email'
+        }
+      },
+      {}
+    ],
+    [
+      {
+        'True': True,
+        'False': False,
+        'None': None
+      },
+      {
+        'widget': {
+          'name': 'email',
+          'is_hidden': False,
+          'required': True,
+          'value': 'email',
+          'attrs': {
+            'required': True,
+            'id': 'id_email'
+          },
+          'template_name': 'django/forms/widgets/email.html',
+          'type': 'email'
+        }
+      },
+      {},
+      {}
+    ],
+    [
+      {
+        'True': True,
+        'False': False,
+        'None': None
+      },
+      {
+        'field': <django.forms.boundfield.BoundField
+        object
+        at
+        0x7f8e109d8c40>,
+        'label': 'Password:',
+        'attrs': {
+          'for': 'id_password1'
+        },
+        'use_tag': True,
+        'tag': 'label'
+      }
+    ],
+    [
+      {
+        'True': True,
+        'False': False,
+        'None': None
+      },
+      {
+        'field': <django.forms.boundfield.BoundField
+        object
+        at
+        0x7f8e109d8c40>,
+        'label': 'Password:',
+        'attrs': {
+          'for': 'id_password1'
+        },
+        'use_tag': True,
+        'tag': 'label'
+      },
+      {}
+    ],
+    [
+      {
+        'True': True,
+        'False': False,
+        'None': None
+      },
+      {
+        'widget': {
+          'name': 'password1',
+          'is_hidden': False,
+          'required': True,
+          'value': None,
+          'attrs': {
+            'autocomplete': 'new-password',
+            'required': True,
+            'id': 'id_password1'
+          },
+          'template_name': 'django/forms/widgets/password.html',
+          'type': 'password'
+        }
+      }
+    ],
+    [
+      {
+        'True': True,
+        'False': False,
+        'None': None
+      },
+      {
+        'widget': {
+          'name': 'password1',
+          'is_hidden': False,
+          'required': True,
+          'value': None,
+          'attrs': {
+            'autocomplete': 'new-password',
+            'required': True,
+            'id': 'id_password1'
+          },
+          'template_name': 'django/forms/widgets/password.html',
+          'type': 'password'
+        }
+      },
+      {}
+    ],
+    [
+      {
+        'True': True,
+        'False': False,
+        'None': None
+      },
+      {
+        'widget': {
+          'name': 'password1',
+          'is_hidden': False,
+          'required': True,
+          'value': None,
+          'attrs': {
+            'autocomplete': 'new-password',
+            'required': True,
+            'id': 'id_password1'
+          },
+          'template_name': 'django/forms/widgets/password.html',
+          'type': 'password'
+        }
+      },
+      {},
+      {}
+    ],
+    [
+      {
+        'True': True,
+        'False': False,
+        'None': None
+      },
+      {
+        'field': <django.forms.boundfield.BoundField
+        object
+        at
+        0x7f8e109d8a00>,
+        'label': 'Password confirmation:',
+        'attrs': {
+          'for': 'id_password2'
+        },
+        'use_tag': True,
+        'tag': 'label'
+      }
+    ],
+    [
+      {
+        'True': True,
+        'False': False,
+        'None': None
+      },
+      {
+        'field': <django.forms.boundfield.BoundField
+        object
+        at
+        0x7f8e109d8a00>,
+        'label': 'Password confirmation:',
+        'attrs': {
+          'for': 'id_password2'
+        },
+        'use_tag': True,
+        'tag': 'label'
+      },
+      {}
+    ],
+    [
+      {
+        'True': True,
+        'False': False,
+        'None': None
+      },
+      {
+        'widget': {
+          'name': 'password2',
+          'is_hidden': False,
+          'required': True,
+          'value': None,
+          'attrs': {
+            'autocomplete': 'new-password',
+            'required': True,
+            'id': 'id_password2'
+          },
+          'template_name': 'django/forms/widgets/password.html',
+          'type': 'password'
+        }
+      }
+    ],
+    [
+      {
+        'True': True,
+        'False': False,
+        'None': None
+      },
+      {
+        'widget': {
+          'name': 'password2',
+          'is_hidden': False,
+          'required': True,
+          'value': None,
+          'attrs': {
+            'autocomplete': 'new-password',
+            'required': True,
+            'id': 'id_password2'
+          },
+          'template_name': 'django/forms/widgets/password.html',
+          'type': 'password'
+        }
+      },
+      {}
+    ],
+    [
+      {
+        'True': True,
+        'False': False,
+        'None': None
+      },
+      {
+        'widget': {
+          'name': 'password2',
+          'is_hidden': False,
+          'required': True,
+          'value': None,
+          'attrs': {
+            'autocomplete': 'new-password',
+            'required': True,
+            'id': 'id_password2'
+          },
+          'template_name': 'django/forms/widgets/password.html',
+          'type': 'password'
+        }
+      },
+      {},
+      {}
+    ]
+  ],
+  'json': functools.partial(<bound
+  method
+  ClientMixin._parse_json
+  of
+  <django.test.client.Client
+  object
+  at
+  0x7f8e109fb460>>,
+  <HttpResponse
+  status_code=200,
+  "text/html; charset=utf-8"
+  >),
+  'resolver_match': <SimpleLazyObject
+  :
+  <function
+  Client.request.<locals>.<lambda>
+  at
+  0x7f8e40c8caf0>>
+}
